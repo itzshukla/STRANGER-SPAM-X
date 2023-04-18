@@ -2,10 +2,10 @@
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
-<p align="center"><a href="https://t.me/ItzExStar"><img src="https://te.legra.ph/file/07d39b85c6cea32f15259.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/YOUR_GODFATHER_XD"><img src="https://te.legra.ph/file/dc6415d3003c20b76793b.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using THIS OP AltronX SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using THIS OP GODFATHERX SPAM BOT, That is the greatest pleasure we have !
 
 <br>
 
@@ -18,7 +18,7 @@
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ItZxSTaR/TheBotSpam)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mrtosumemon/ThetosuBotSpam)
   
 </details>
 
@@ -40,4 +40,4 @@
 
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨
-<a href="https://t.me/TheAltron"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/GUJU_CHATTING"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>

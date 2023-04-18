@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/aboutprincexd"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/GUJU_CHATTING")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ItZxSTaR/TheBotSpam")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/mrtosumemon/ThetosuBotSpam")
         ]
         ]
 
@@ -39,6 +39,6 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+                "https://te.legra.ph/file/dc6415d3003c20b76793b.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)

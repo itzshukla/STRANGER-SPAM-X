@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝙏𝙝𝙚𝘽𝙤𝙩𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @YOUR_GODFATHER_XD**"
+PythonHelp = f"★ 𝗚𝗼𝗱𝗳𝗮𝘁𝗵𝗲𝗿𝘀𝗽𝗮𝗺 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @YOUR_GODFATHER_XD**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝙏𝙝𝙚𝘽𝙤𝙩𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 �
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+                                  "https://te.legra.ph/file/b09791169bed169f399ed.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @ItzExStar**
+**© @YOUR_GODFATHER_XD**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @ItzExStar**
+**© @YOUR_GODFATHER_XD**
 """
 
 spam_msg = f"""
@@ -130,8 +130,9 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/aboutprincexd"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/GUJU_CHATTING")
+            Button.url("• 𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑 •", "https://t.me/aboutprincexd"),
+            Button.url("• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", "https://t.me/GUJU_CHATTING")
+            Button.url("• 𝐅𝐄𝐄𝐋𝐈𝐍𝐆 •", "https://t.me/INCRICIBLE")
            ],
            ],
         )           

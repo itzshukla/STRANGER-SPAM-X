@@ -130,9 +130,8 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• 𝐆𝐎𝐃𝐅𝐀𝐓𝐇𝐄𝐑 •", "https://t.me/aboutprincexd"),
-            Button.url("• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", "https://t.me/GUJU_CHATTING")
-            Button.url("• 𝐅𝐄𝐄𝐋𝐈𝐍𝐆 •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/aboutprincexd"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/GUJU_CHATTING")
            ],
            ],
         )           

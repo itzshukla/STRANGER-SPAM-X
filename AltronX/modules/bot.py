@@ -20,7 +20,7 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» __ᴀʟᴛʀᴏɴ__", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» #ɢᴏᴅғᴀᴛʜᴇʀ_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
         await altron.edit(f"__🤖 ᴘɪɴɢ__\n» `{mp} ms`")

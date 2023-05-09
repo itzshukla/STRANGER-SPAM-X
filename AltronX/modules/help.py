@@ -18,7 +18,7 @@ PythonHelp = f"★ 𝗚𝗼𝗱𝗳𝗮𝘁𝗵𝗲𝗿𝘀𝗽𝗮𝗺 𝙃𝙚
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  "https://te.legra.ph/file/b09791169bed169f399ed.jpg",
+                                  "https://te.legra.ph/file/3f8c9a32f059e8cf1f4d0.jpg",
                                   caption=PythonHelp,
                                   buttons=[
            [
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/aboutprincexd"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/GUJU_CHATTING")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ABOUT_GODFATHER"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
            ],
            ],
            )
@@ -130,8 +130,8 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/aboutprincexd"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/GUJU_CHATTING")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ABOUT_GODFATHER"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
            ],
            ],
         )           

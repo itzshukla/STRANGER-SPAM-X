@@ -38,9 +38,9 @@ async def logs(legend):
         ms = (end-start).seconds
         await asyncio.sleep(1)
         await fetch.delete()
-        logfile = open("godfather.txt", "w")
-        logfile.write("⚡ GodfatherX ⚡ [ BotSpam Logs ]\n\n" + logs)
+        logfile = open("skspam.txt", "w")
+        logfile.write("⚡ OPshivamX ⚡ [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
-        await MK1.send_file(legend.chat_id, "GodfatherLogs.txt", caption=f"⚡ 𝙶𝙾𝙳𝙵𝙰𝚃𝙷𝙴𝚁 ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+        await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"⚡ ​ᴏᴘꜱʜɪᴠᴀᴍ ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
     else:
         await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")

@@ -27,9 +27,9 @@ async def spam(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in ALTRON:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 c = a.first_name
                 username = f"[{c}](tg://user?id={g})"
@@ -38,16 +38,16 @@ async def spam(e):
                     reply = random.choice(RAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in ALTRON:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪs ᴏᴠᴇʀ ᴘᴏᴡᴇʀᴇᴅ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 c = b.first_name
                 counter = int(mkraid[0])
@@ -56,7 +56,7 @@ async def spam(e):
                     reply = random.choice(RAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -76,7 +76,7 @@ async def _(event):
     queue = que.get(event.sender_id)
     if not queue:
         return
-    await asyncio.sleep(0.3)
+    await asyncio.sleep(0.1)
     await event.client.send_message(
         entity=event.chat_id,
         message="""{}""".format(random.choice(REPLYRAID)),
@@ -104,17 +104,17 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴠᴇʀ ᴘᴏᴡᴇʀᴇᴅ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
-                await e.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
                 que[user_id] = []
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» ʜᴇʜᴇ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -131,7 +131,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -202,7 +202,7 @@ async def spam(e):
                 reply = random.choice(MRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(0.1)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -245,7 +245,7 @@ async def spam(e):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(0.1)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -257,7 +257,7 @@ async def spam(e):
                 reply = random.choice(SRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -288,7 +288,7 @@ async def spam(e):
                 reply = random.choice(CRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(0.1)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -300,6 +300,6 @@ async def spam(e):
                 reply = random.choice(CRAID)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
-                await asyncio.sleep(0.3)
+                await asyncio.sleep(0.1)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )

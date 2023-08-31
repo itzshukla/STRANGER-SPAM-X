@@ -30,7 +30,7 @@ async def echo(event):
         elif int(user_id) == OWNER_ID:
             await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
@@ -71,9 +71,9 @@ async def rmecho(event):
             pass
         if is_echo(user_id, chat_id):
             remove_echo(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴏᴘᴘᴇᴅ ꜰᴏʀ ᴛʜᴇ ᴜꜱᴇʀ ☑️")
+            await event.reply("» ᴜғғ ʏʀʀ!! ᴇᴄʜᴏ ʜᴛᴛ ɢʏᴀ ☑️")
         else:
-            await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅɪꜱᴀʙʟᴇᴅ !!")
+            await event.reply("» ᴇᴄʜᴏ ᴛᴏ ᴋᴀʙᴋᴀ ʜᴀᴛᴛ ɢʏᴀ.. ᴜ ғᴏᴏʟ !!")
      else:
           await event.reply(usage)
 

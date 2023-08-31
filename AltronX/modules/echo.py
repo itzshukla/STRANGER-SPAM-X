@@ -26,11 +26,11 @@ async def echo(event):
         reply_msg = await event.get_reply_message()
         user_id = reply_msg.sender_id
         if int(user_id) in ALTRON:
-            await event.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
-            await event.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
-            await event.reply("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ", parse_mode=None, link_preview=None)
         else:
             chat_id = event.chat_id
             try:
@@ -39,10 +39,10 @@ async def echo(event):
             except BaseException:
                 pass
             if is_echo(user_id, chat_id):
-                await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜɪꜱ ᴜꜱᴇʀ !!")
+                await event.reply("» ᴇᴄʜᴏ ᴘʜʟᴇ sᴇ ʟᴀɢᴀ ʜᴜᴀ ʜᴀɪ.. ʜᴇʜᴇʜᴇ !!")
                 return
             addecho(user_id, chat_id)
-            await event.reply("» ᴇᴄʜᴏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ ✅")
+            await event.reply("» ᴇᴄʜᴏ ʟᴀɢ ɢʏᴀ! ʜᴀʜᴀʜᴀ!! ✅")
      else:
           await event.reply(usage)
 

@@ -9,14 +9,14 @@
  -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
 </p>
 
-<h1 align="center"><b>😈 🔥SHIVAM 𝙓 SPAM 🔥💫 😈</b></h1>
+<h1 align="center"><b>😈 🔥𝕾𝖕𝖊𝖈𝖙𝖗𝖊 𝙓 𝕾𝖕𝖆𝖒 🔥💫 😈</b></h1>
 
-<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
+<h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
 <p align="center"><a href="https://t.me/itsz_shivam"><img src="https://telegra.ph/file/0de98f5fe87df8e6b514d.jpg" width="400"></a></p>
 
 
-> ⭐️ Thanks to everyone for using THIS OP SK SPAM BOT, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using THIS SPECTRE SPAM BOT, That is the greatest pleasure we have !
 
 <br>
 

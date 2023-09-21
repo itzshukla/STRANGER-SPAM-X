@@ -9,7 +9,7 @@
  -->    <img align="middle" src="https://profile-counter.glitch.me/itszshivam/count.svg" />
 </p>
 
-<h1 align="center"><b>😈 🔥𝕾𝖕𝖊𝖈𝖙𝖗𝖊 𝙓 𝕾𝖕𝖆𝖒 🔥💫 😈</b></h1>
+<h1 align="center"><b> 𝕾𝖕𝖊𝖈𝖙𝖗𝖊 𝙓 𝕾𝖕𝖆𝖒🔥</b></h1>
 
 <h4 align="center"> 𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 

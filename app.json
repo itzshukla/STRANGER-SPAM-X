@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/itszshivam/SK_spambot",
+    "repository": "https://github.com/itzshukla/STRANGER-SPAM-X",
     "env": {
      "CMD_HNDLR": {
             "description": "Custom command handler.",

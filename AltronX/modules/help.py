@@ -29,7 +29,7 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/mastiwithfriendsx"),
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SHIVANSH474"),
             Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
            ],
            ],
@@ -130,7 +130,7 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/mastiwithfriendsx"),
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/SHIVANSH474"),
             Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mastiwithfriendsx")
            ],
            ],

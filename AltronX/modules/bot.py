@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! ʙᴏᴛ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f"😖ʀᴇʙᴏᴏᴛ ᴋᴀʀᴋᴇ ᴛᴜɴᴇ ᴀᴘɴɪ ᴀᴜᴋᴀᴀᴛ ᴅɪᴋʜᴀ ᴅɪ...!😪😒")
         try:
             await MK1.disconnect()
         except Exception:

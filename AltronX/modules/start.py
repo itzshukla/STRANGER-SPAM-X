@@ -39,6 +39,6 @@ async def start(event):
         TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+                "https://telegra.ph/file/05522e13c97752efe5e75.png",
                 caption=TEXT, 
                 buttons=PythonButton)

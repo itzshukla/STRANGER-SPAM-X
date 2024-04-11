@@ -18,7 +18,7 @@ PythonHelp = f"⚡️ ​𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗦𝗣𝗔𝗠 𝙃�
 async def help(event):
     if event.sender_id in SUDO_USERS:
        await event.client.send_file(event.chat_id,
-                                  " https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+                               "https://telegra.ph/file/05522e13c97752efe5e75.png",
                                   caption=PythonHelp,
                                   buttons=[
            [

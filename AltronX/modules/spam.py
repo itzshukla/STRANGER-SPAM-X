@@ -77,7 +77,7 @@ async def pspam(e):
         if len(altron) == 1:
             counter = int(altron[0])
             if int(e.chat_id) in GROUP:
-                await e.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.", parse_mode=None, link_preview=None )
+                await e.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪs  𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.", parse_mode=None, link_preview=None )
             else:
                  porrn = random.choice(PORMS)
                  for _ in range(counter):

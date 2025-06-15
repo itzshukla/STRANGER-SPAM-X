@@ -22,14 +22,14 @@ async def logs(legend):
         if (HEROKU_APP_NAME is None) or (HEROKU_API_KEY is None):
             return await legend.reply(
                 legend.chat_id,
-                "First Set These Vars In Heroku :  `HEROKU_API_KEY` And `HEROKU_APP_NAME`.",
+                "ғɪʀsᴛ sᴇᴛ ᴛʜᴇsᴇ ᴠᴀʀs ɪɴ ʜᴇʀᴏᴋᴜ :  `HEROKU_API_KEY` And `HEROKU_APP_NAME`.",
             )
         try:
             Heroku = heroku3.from_key(HEROKU_API_KEY)
             app = Heroku.app(HEROKU_APP_NAME)
         except BaseException:
             return await legend.reply(
-                "Make Sure Your Heroku API Key & App Name Are Configured Correctly In Heroku."
+                "ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ & ᴀᴘᴘ ɴᴀᴍᴇ ᴀʀᴇ ᴄᴏɴғɪɢᴜʀᴇᴅ ᴄᴏʀʀᴇᴄᴛʟʏ ɪɴ ʜᴇʀᴏᴋᴜ."
             )
         logs = app.get_log()
         start = datetime.now()
@@ -39,8 +39,8 @@ async def logs(legend):
         await asyncio.sleep(1)
         await fetch.delete()
         logfile = open("skspam.txt", "w")
-        logfile.write("⚡ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ⚡ [ BotSpam Logs ]\n\n" + logs)
+        logfile.write("𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
-        await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"⚡ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+        await MK1.send_file(legend.chat_id, "skspam.txt", caption=f"𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 \n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
     else:
         await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")

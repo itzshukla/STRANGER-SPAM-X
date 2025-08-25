@@ -45,9 +45,9 @@
 
 # Rᴇǫᴜɪʀᴇᴍᴇɴᴛs
 
-- `10 BOT-TOKENS`
+- `7299630063:AAE8axqwBLAeoe5X0xUKip2wysYjYAcWamk`
 
-- `OWNER-ID`
+- `6174138845`
 
 
 # ꜱᴜᴘᴘᴏʀᴛ ✨

@@ -1,6 +1,6 @@
 {
-    "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌",
-    "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+    "name": "™°‌𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑-𝐒𝐏𝐀𝐌",
+    "logo": "https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -10,11 +10,6 @@
     ],
     "repository": "https://github.com/itzshukla/STRANGER-SPAM-X",
     "env": {
-     "CMD_HNDLR": {
-            "description": "Custom command handler.",
-            "value": ".",
-            "required": false
-        },
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
@@ -65,35 +60,32 @@
         "value": "",
         "required": true
       },
-       "SUDO_USER": {
-            "description": "Sudo users id space by space",
-            "value": "6919199044 6762113050 6876910746",
-            "required": false
-        },
+      "CMD_HNDLR": {
+        "description": "Custom command handler.",
+        "value": ".",
+        "required": false
+      },
+      "SUDO_USERS": {
+        "description": "Sudo users id space by space",
+        "value": "",
+        "required": false
+      },
       "OWNER_ID": {
-            "description": "Owner Id",
-            "value": "6762113050",
-            "required": true
-        },
-        "HEROKU_API_KEY": {
-            "description": "Your Heroku api key to update your bot",
-            "value": "",
-            "required": false 
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Your app name to Update your bot",
-          "value": "",
-          "required": false  
-        }
-    },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "15"
+        "description": "Owner Id",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku api key to update your bot",
+        "value": "",
+        "required": false 
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your app name to Update your bot",
+        "value": "",
+        "required": false  
       }
-    }
-  ],
+    },
   "buildpacks": [
         {
             "url": "heroku/python"
